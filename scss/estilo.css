@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #333131;
+  font-family: 'Oswald', sans-serif;
+}
+
+.centrarImg {
+  width: 600px;
+  height: 400px;
+  line-height: 400px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.centrarImg img {
+  vertical-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+header {
+  font-family: 'Oswald', sans-serif;
+}
+
+footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #3a3838;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a {
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+}
+
+.menu li a:hover {
+  display: inline-block;
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: initial;
+  }
+  .centrarImg {
+    width: 65%;
+    height: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  .centrarImg {
+    width: 65%;
+    height: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: initial;
+  }
+  .centrarImg {
+    width: 65%;
+    height: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: initial;
+  }
+  .centrarImg {
+    width: 65%;
+    height: 70%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
