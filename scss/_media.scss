@@ -1,3 +1,7 @@
+@mixin tam {
+    width: 65%;
+    height: 70%;
+}
 @media only screen and (min-width: 768px) {
     body{
         text-transform: capitalize;
@@ -6,12 +10,10 @@
         font-style: initial;
     }
     .centrarImg{
-        width: 65%;
-        height: 70%;
+        @include tam;
     }
     .imagen{
-        width: 65%;
-        height: 70%;
+        @include tam;
     }
   
   }
@@ -22,8 +24,7 @@
         font-size: small;
     }
     .centrarImg{
-        width: 65%;
-        height: 70%;
+        @include tam;
     }
   }
   @media only screen and (min-width: 1024px) {
@@ -34,8 +35,7 @@
         font-style: initial;       
     }
     .centrarImg{
-        width:65%;
-        height: 70%;
+        @include tam;
     }
   }
   @media only screen and (min-width: 1200px) {
@@ -47,7 +47,6 @@
         
     }
     .centrarImg{
-        width:65%;
-        height: 70%;
+       @include tam;
     }
   }
