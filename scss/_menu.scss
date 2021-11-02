@@ -1,3 +1,8 @@
+@mixin linea {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+}
 .menu{
     list-style-type: none;
     padding: 0;
@@ -8,18 +13,13 @@
     background-color: rgb(58, 56, 56);    
 }
 .menu li{
-    display: inline-block;
-    text-align: center;
+    @include linea;
 }
 .menu li a{
-    display: inline-block;
-    text-align: center;
-    padding: 25px;
+    @include linea;
 }
 .menu li a:hover{
-    display: inline-block;
-    text-align: center;
-    padding: 25px;
+    @include linea;
     background-color: black;
     border-radius: 10px;
 }
