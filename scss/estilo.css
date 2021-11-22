@@ -35,6 +35,10 @@ h4 {
   color: white;
 }
 
+.promo {
+  float: right;
+}
+
 header {
   font-family: 'Oswald', sans-serif;
 }
@@ -56,6 +60,7 @@ footer {
 .menu li {
   display: inline-block;
   text-align: center;
+  padding: 25px;
 }
 
 .menu li a {
@@ -80,6 +85,10 @@ footer {
     font-style: initial;
   }
   .centrarImg {
+    width: 65%;
+    height: 70%;
+  }
+  .imagen {
     width: 65%;
     height: 70%;
   }
